@@ -15,7 +15,17 @@ SELECT
 FROM
     countries_living_expenses
 GROUP BY Country;
+
+#Question 2
+**Find the average cost of living by region.**
+
 ```sql
+SELECT 
+    Region, ROUND(AVG(Cost_of_Living), 2)
+FROM
+    countries_living_expenses
+GROUP BY Region
+ORDER BY Region;
 
 
 
