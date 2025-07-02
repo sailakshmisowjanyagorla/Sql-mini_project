@@ -7,6 +7,8 @@ The dataset includes information about countries, their regions, cost of living,
 The goal is to analyze the dataset by answering common real-world queries related to cost of living, savings, taxes, and income across countries and regions.
 
 ## Dataset Overview
+The dataset offers a comprehensive overview of the cost of living and average monthly income across various countries and regions from 2000 to 2023. It encompasses key economic indicators such as housing costs, tax rates, healthcare and education expenses, transportation costs, and savings rates. This data is valuable for analyzing global economic trends, comparing regional financial conditions, and supporting informed financial planning and policy decisions.
+
 The dataset `countries_living_expenses` includes the following columns:
 - `Country` — Name of the country  
 - `Region` — Region it belongs to (e.g., Europe, Asia)  
@@ -15,6 +17,10 @@ The dataset `countries_living_expenses` includes the following columns:
 - `Average_Monthly_Income` — Average income per month  
 - `Savings_Percentage` — Percent of income saved  
 - `Tax_Rate` — Tax rate in percent
+- `Savings_Percentage`: Monthly savings, expressed as a percentage.
+- `Healthcare_Cost_Percentage`: percentage of income spent on healthcare services.
+- `Education_Cost_Percentage`: percentage of income spent on educational needs.
+- `Transportation_Cost_Percentage`: percentage of income spent for commute costs.
 
 ## How to Run
 1. Load the dataset into a MySQL database (table: `countries_living_expenses`)
